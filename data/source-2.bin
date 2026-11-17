@@ -1,0 +1,8 @@
+{
+  "kind": "order_change",
+  "id": "order_change-B",
+  "revision": "v1",
+  "period": "2026-11-13",
+  "subject": "sample-A",
+  "state": "pending"
+}
