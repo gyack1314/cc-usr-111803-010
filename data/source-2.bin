@@ -1,8 +1,8 @@
 {
   "kind": "order_change",
-  "id": "order_change-B",
+  "id": "order_change-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "order_id": "O-1",
+  "delivery_week": "2026-W48",
+  "change": "reschedule"
 }

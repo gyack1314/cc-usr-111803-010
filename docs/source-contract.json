@@ -1,0 +1,25 @@
+{
+  "roles": [
+    "order_notice",
+    "order_change"
+  ],
+  "relation_field": "order_id",
+  "required_fields": {
+    "order_notice": [
+      "order_id",
+      "merchant",
+      "delivery_week",
+      "state"
+    ],
+    "order_change": [
+      "order_id",
+      "delivery_week",
+      "change"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}
