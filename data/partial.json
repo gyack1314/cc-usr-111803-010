@@ -1,0 +1,32 @@
+{
+  "allowed_origins": [
+    "https://local-source-010.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-010.example.test/records/order_notice-A",
+      "kind": "order_notice",
+      "required": true
+    },
+    {
+      "url": "https://local-source-010.example.test/records/order_change-B",
+      "kind": "order_change",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-010.example.test/records/order_notice-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 176,
+        "sha256": "a7e9117310f2bcbf271740626419495df416495cc384d76150b794a92ef90d5b"
+      }
+    }
+  ]
+}
