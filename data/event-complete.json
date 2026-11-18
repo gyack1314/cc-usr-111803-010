@@ -1,0 +1,37 @@
+{
+  "allowed_origins": [
+    "https://local-source-010.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-010.example.test/records/order_notice-A",
+      "kind": "order_notice",
+      "required": true
+    },
+    {
+      "url": "https://local-source-010.example.test/records/order_change-B",
+      "kind": "order_change",
+      "required": true
+    },
+    {
+      "url": "https://local-source-010.example.test/records/order_split-A",
+      "kind": "order_split",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-010.example.test/records/order_split-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-event.bin",
+        "status": 200,
+        "bytes": 197,
+        "sha256": "174cf53c4476ff6bdb7b383a6c7518e7e537678f772de719c9f580dcbd89b845"
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "roles": [
     "order_notice",
-    "order_change"
+    "order_change",
+    "order_split"
   ],
   "relation_field": "order_id",
   "required_fields": {
@@ -15,6 +16,12 @@
       "order_id",
       "delivery_week",
       "change"
+    ],
+    "order_split": [
+      "order_id",
+      "child_orders",
+      "effective_week",
+      "state"
     ]
   },
   "source_identity": [

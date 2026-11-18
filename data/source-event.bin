@@ -1,0 +1,12 @@
+{
+  "kind": "order_split",
+  "id": "order_split-A",
+  "revision": "v1",
+  "order_id": "O-1",
+  "child_orders": [
+    "O-1A",
+    "O-1B"
+  ],
+  "effective_week": "2026-W48",
+  "state": "confirmed"
+}
