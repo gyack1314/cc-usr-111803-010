@@ -1,0 +1,9 @@
+{
+  "kind": "order_notice",
+  "id": "order_notice-A",
+  "revision": "v2",
+  "order_id": "O-1",
+  "merchant": "商户甲",
+  "delivery_week": "2026-W47",
+  "state": "confirmed"
+}
